@@ -1,0 +1,14 @@
+html, body {
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	width: 100%;
+}
+.jumbotron {
+	background-color: transparent;
+}
+
+.page {
+	height: 100%;
+	height: 100vh;
+}
