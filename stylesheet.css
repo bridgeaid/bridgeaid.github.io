@@ -1,0 +1,142 @@
+@font-face {
+	font-family: 'Neuzeit Grotesk';
+	src: url(assets/font/urw_neuzeitgrotesktot-reg-webfont.ttf);
+}
+
+html, body {
+	color: #444f53;
+	font-family: 'Neuzeit Grotesk';
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	width: 100%;
+}
+.jumbotron {
+	background-color: transparent;
+}
+.front {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.page.front {
+	height: 85vh;
+}
+.front-header {
+	font-size: 42px;
+	line-height: 1.1;
+}
+
+.page.bottom {
+	padding-top: 20px;
+}
+
+#iphone {
+	margin-top: 20px;
+	max-width: 100%;
+}
+.bottom-content {
+	margin-bottom: 20px;
+}
+.bottom {
+	text-align: center;
+}
+.bottom-header {
+	line-height: 1.2;
+	font-size: 42px;
+}
+.buttons {
+	margin: 40px 0 25px 0;
+}
+.buttons>img {
+	width: 200px;
+	margin: 0 8px 8px 0;
+}
+#logo {
+	margin: 0 0 50px 0;
+	max-width: 100%;
+}
+.icon {
+	margin-right: 20px;
+	height: 42px;
+}
+.feature {
+	margin-top: 10px;
+	margin-bottom: 20px;
+}
+.feature>* {
+	display: inline-block;
+}
+.feature>h4 {
+	font-size: 20px;
+}
+.feature-header {
+	font-size: 32px;
+}
+.row.feature-wrapper {
+	margin: 20px -15px 20px -15px;
+}
+.feature-wrapper p {
+	font-size: 16px;
+	line-height: 1.4;
+	margin-bottom: 35px;
+}
+.page.middle {
+	margin-top: 10vh;
+	margin-bottom: 10vh;
+}
+@media screen and (min-width: 992px) {
+	.bottom-content {
+		margin-top: 20%;
+	}
+	#iphone {
+		margin-top: 20%;	
+		max-width: 400px;
+	}
+	.buttons>img {
+		margin-left: 0;
+		margin-right: 12px;
+	}
+	.bottom {
+		text-align: left;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.feature>* {
+		display: block;
+	}
+	.feature>img {
+		text-align: center;
+		margin: auto;
+		height: 64px;
+	}
+	.page.front {
+		height: 90vh;
+	}
+	.front-header, .bottom-header {
+		font-size: 32px;
+	}
+}
+
+
+/* Bridge */
+#bridge-front {
+	color: white;
+	background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(assets/images/bridge_cover.png) no-repeat center center;
+	background-size: cover;
+}
+
+#bridge-bottom {
+	color: white;
+	background-color: #e6ac50;
+}
+
+
+/* Aid */
+#aid-front {
+	color: auto;
+	background: url(assets/images/cover.png) no-repeat center center;
+	background-size: cover;
+}
